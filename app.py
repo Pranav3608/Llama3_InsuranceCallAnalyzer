@@ -2,7 +2,7 @@ import gradio as gr
 from src.processing import process_transcript, extract_metadata_from_transcript
 
 def analyze_transcript(transcript):
-    # Define your schema dictionary as shown earlier
+    # defining the schema points againts which verification or compliance checks have to be made
     schema = {
     "Introduction and Establishing Rapport": "The conversation starts with the agent introducing herself and expressing readiness to assist, establishing a rapport.",
     "Gathering Initial Information": "The agent inquires about the client's financial situation and specific concerns related to life insurance, to which the client provides relevant details.",
